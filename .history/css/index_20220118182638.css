@@ -1,0 +1,96 @@
+
+:root { 
+  --white: #fffffe; 
+  --black: #300f16; 
+  --primary: #dc0a2d; 
+  --green:#5baa67;
+  --red :#f4647d ;
+  --yellow-light:#feef8d;
+  --secondary: #163355; 
+  --blue: #4ca3d9;
+  --body1: 400 0.75rem/1.5rem Roboto; 
+  --body3: 400 0.5rem/0.4556451737880707rem Roboto; 
+  --body2-regular: 400 0.75rem/1.375rem Space Mono;  
+}
+
+body {
+  color: var(--white);
+  background-color: var(--blue);
+  font: var(--body1);
+  margin: 0;
+}
+
+.pokedex{
+  background-color: var(--primary);
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.pokedex-info {
+  width: 50%;
+}
+
+.pokedex-stats {
+  width: 50%;
+}
+
+.container-cam{
+  display: flex;
+  align-items: center;
+}
+
+.container-cam-circle-blue {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: var(--blue);
+  border: 3px solid white;
+  margin-right: 15px;
+}
+
+.container-circle-red{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--red);  
+  margin-right: 8px;
+}
+
+.container-circle-yellow{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--yellow-light);  
+  margin-right: 8px;
+}
+
+.container-circle-green{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--green);  
+  margin-right: 8px;
+}
+
+.container-screen{
+}
+
+.container-screen-top{
+  background: white;
+  width: 100%;
+  height: 120px;
+}
+
+
+.container-buttons{
+}
+
+.container-info{
+}
