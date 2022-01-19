@@ -135,8 +135,6 @@ body {
   height: 1px;
   background: var(--secondary);
   display: inline-block;
-  margin: 0;
-  padding: 0;
 }
 
 .pokedex-buttons{    

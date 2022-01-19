@@ -131,12 +131,9 @@ body {
 }
 
 .pokedex-screen-lines-line{
-  width: 24px;
+  width: 1px;
   height: 1px;
-  background: var(--secondary);
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  background: var(--secondary);1
 }
 
 .pokedex-buttons{    
