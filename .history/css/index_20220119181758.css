@@ -143,21 +143,24 @@ body {
   height: 50px;
   border-radius: 50%;
   background: var(--secondary);  
-  margin-right: 40px;
+  margin-top: 30px;
+  margin-right: 200px;
   box-shadow: 2px 2px black;
+  margin-right: 90px;
 }
 
 .pokedex-buttons-yellow{
-  width: 26px;
-  height: 7px;
+  width: 20px;
+  height: 5px;
   border-radius: 4px;
-  background: #fdcb2f;
-  margin-right: 25px;
+  background: yellow;
+  margin-right: 10px;
 }
 
 .pokedex-buttons-darkblue{
-  width: 26px;
-  height: 7px;
+  width: 20px;
+  height: 5px;
   border-radius: 4px;
-  background: var(--secondary);
+  background: darkblue;
+  
 }

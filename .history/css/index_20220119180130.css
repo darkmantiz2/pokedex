@@ -131,11 +131,8 @@ body {
   background: var(--secondary);1  
 }
 
-.pokedex-buttons{    
+.pokedex-buttons{
   box-sizing: border-box;
-  align-items: center;
-  display: flex;
-  margin-top: 30px;
 }
 
 .pokedex-buttons-circle{
@@ -143,21 +140,20 @@ body {
   height: 50px;
   border-radius: 50%;
   background: var(--secondary);  
-  margin-right: 40px;
+  margin-top: 30px;
   box-shadow: 2px 2px black;
 }
 
 .pokedex-buttons-yellow{
-  width: 26px;
-  height: 7px;
+  width: 20px;
+  height: 5px;
   border-radius: 4px;
-  background: #fdcb2f;
-  margin-right: 25px;
+  background: yellow;
 }
 
 .pokedex-buttons-darkblue{
-  width: 26px;
-  height: 7px;
+  width: 20px;
+  height: 5px;
   border-radius: 4px;
-  background: var(--secondary);
+  background: darkblue;
 }

@@ -96,6 +96,7 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .pokedex-screen-pokemon {
@@ -105,59 +106,17 @@ body {
   
 }
 
-.pokedex-screen-redpoint1{
+.pokedex-screen-redpoints{
   display: inline-block;
   width: 18px;
   height: 18px;
   border-radius: 50%;
   background: var(--primary);  
-  margin-left: 110px;
-  margin-top: 10px;
+  margin-right: 8px;
 }
 
-.pokedex-screen-redpoint2{
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--primary);  
-  margin-left: 10px;
+.container-buttons{
 }
 
-.pokedex-screen-lines{
-  display: inline-block;
-  width: 24px;
-  height: 18px;
-  background: var(--secondary);1  
-}
-
-.pokedex-buttons{    
-  box-sizing: border-box;
-  align-items: center;
-  display: flex;
-  margin-top: 30px;
-}
-
-.pokedex-buttons-circle{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: var(--secondary);  
-  margin-right: 40px;
-  box-shadow: 2px 2px black;
-}
-
-.pokedex-buttons-yellow{
-  width: 26px;
-  height: 7px;
-  border-radius: 4px;
-  background: #fdcb2f;
-  margin-right: 25px;
-}
-
-.pokedex-buttons-darkblue{
-  width: 26px;
-  height: 7px;
-  border-radius: 4px;
-  background: var(--secondary);
+.container-info{
 }

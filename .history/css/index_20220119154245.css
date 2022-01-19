@@ -124,40 +124,8 @@ body {
   margin-left: 10px;
 }
 
-.pokedex-screen-lines{
-  display: inline-block;
-  width: 24px;
-  height: 18px;
-  background: var(--secondary);1  
+.container-buttons{
 }
 
-.pokedex-buttons{    
-  box-sizing: border-box;
-  align-items: center;
-  display: flex;
-  margin-top: 30px;
-}
-
-.pokedex-buttons-circle{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: var(--secondary);  
-  margin-right: 40px;
-  box-shadow: 2px 2px black;
-}
-
-.pokedex-buttons-yellow{
-  width: 26px;
-  height: 7px;
-  border-radius: 4px;
-  background: #fdcb2f;
-  margin-right: 25px;
-}
-
-.pokedex-buttons-darkblue{
-  width: 26px;
-  height: 7px;
-  border-radius: 4px;
-  background: var(--secondary);
+.container-info{
 }

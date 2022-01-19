@@ -148,15 +148,15 @@ body {
 }
 
 .pokedex-buttons-yellow{
-  width: 26px;
+  width: 22px;
   height: 7px;
   border-radius: 4px;
   background: #fdcb2f;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 .pokedex-buttons-darkblue{
-  width: 26px;
+  width: 22px;
   height: 7px;
   border-radius: 4px;
   background: var(--secondary);
