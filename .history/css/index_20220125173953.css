@@ -160,11 +160,6 @@ body {
   box-shadow: 2px 2px black;
 }
 
-.container-info{
-display: flex;
-align-items: flex-start;
-justify-content: space-between;
-}
 .pokedex-buttons-yellow{
   width: 26px;
   height: 7px;
@@ -200,6 +195,7 @@ justify-content: space-between;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 240px;
 }
 
 .pokedex-select-button-up{
