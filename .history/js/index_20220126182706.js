@@ -2,10 +2,11 @@ let url = "https://pokeapi.co/api/v2/pokemon/#{id}";
 
 const getPokemon = async (id) => {
   url = url.replace("#{id}", id);
-  
-  const res = await fetch(url);
 
-  url = url.replace(id, "#{id}");
+
+  console.log(url);
+
+  const res = await fetch(url);
 
   return res.json();
 };
@@ -13,6 +14,7 @@ const getPokemon = async (id) => {
 const drawPokemon = async () => {
   const randomNumber = Math.floor(Math.random() * 900);
 
+  
   const pokemon = await getPokemon(randomNumber);
 
   const nameNode = document.querySelector(".pokedex-pokemon-name");
@@ -22,7 +24,7 @@ const drawPokemon = async () => {
   nameNode.innerHTML = pokemon.name;
   imageNode.src = pokemon.sprites.front_default;
 
-  statsNode.innerHTML = "";
+  statsNode.innerHTML = '';
 
   pokemon.stats.forEach((item) => {
     const element = document.createElement("p");
