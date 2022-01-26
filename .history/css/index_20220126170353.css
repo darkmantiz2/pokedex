@@ -134,8 +134,7 @@ body {
 
 .pokedex-screen-lines{
   display: inline-grid;
-  position: absolute;
-  transform: translateX(126px);
+  position: absolute ;
   margin: 0;
   padding:0;
 }
